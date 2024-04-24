@@ -92,7 +92,6 @@
             <label for="gender_male">男</label>
             <input type="radio" id="gender_female" name="gender" value="female">
             <label for="gender_female">女</label>
-
         </div>
         <div>
             <label for="postal_code">郵便番号:</label>

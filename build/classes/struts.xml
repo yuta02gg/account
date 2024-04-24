@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
-<!-- Strutsの詳細設定 -->
 <struts>
     <constant name="struts.devMode" value="true" />
 
     <package name="com.diworksdev.account.action" extends="struts-default">
-        <action name="registration" class="com.diworksdev.account.action.RegistrationAction">
-            <result name="success">regist_confirm.jsp</result>
-            <result name="input">regist.jsp</result>
-        </action>
+      <action name="regist.jsp" class="com.diworksdev.account.action.RegistrationAction">
+        <result name="success">regist.jsp</result>
+      </action>
     </package>
+
 </struts>

@@ -64,10 +64,10 @@
         <label for="role">アカウント権限:</label>
         <s:property value="%{role}" />
     </div>
-    <s:form action="registerComplete" method="post">
+    <s:form action="regist_Complete" method="post">
         <s:submit value="登録する" />
     </s:form>
-    <s:form action="regist" method="post">
+    <s:form action="regist.jsp" method="post">
         <s:submit value="前に戻る" />
     </s:form>
 </body>
