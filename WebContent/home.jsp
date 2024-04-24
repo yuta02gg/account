@@ -146,7 +146,7 @@
             <li>問い合わせ</li>
             <li>その他</li>
             <li><div>
-                    <a href='<s:url action=""/>'>アカウント登録</a>
+                    <a href='<s:url action="regist.jsp"/>'>アカウント登録</a>
                 </div>
             </li>
         </ul>
