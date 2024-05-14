@@ -1,12 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>アカウント登録完了</title>
+    <style type="text/css">
+        body {
+            font-family: Verdana, Helvetica, sans-serif;
+        }
+        .complete {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
+    <h1>アカウント登録完了</h1>
+    <div class="complete">
+        <p>アカウントの登録が完了しました。</p>
+        <p><a href="login.jsp">ログインページへ</a></p>
+    </div>
 </body>
 </html>

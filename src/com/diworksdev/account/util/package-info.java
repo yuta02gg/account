@@ -5,4 +5,4 @@
  * @author tanaka
  *
  */
-package com.diworksdev.util;
+package com.diworksdev.account.util;
